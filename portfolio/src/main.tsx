@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import SidebarLayout from './components/sidebarLayout.tsx'
+import HomePageLayout from './components/Homepage/HomePageLayout.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <SidebarLayout />
+    <HomePageLayout/>
   </StrictMode>,
 )

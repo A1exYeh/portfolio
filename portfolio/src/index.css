@@ -4,3 +4,21 @@
 
 /* ... */
 
+:root {
+    --color-primary: #37373f;
+    --color-background: #ffffff;
+    --color-text: #000000;
+}
+
+
+[data-theme="dark"] {
+    --color-primary: #373739;
+    --color-background: #09090b;
+    --color-text: #ffffff;
+}
+
+[data-theme="light"] {
+    --color-primary: #37373f;
+    --color-background: #ffffff;
+    --color-text: #000000;
+}
