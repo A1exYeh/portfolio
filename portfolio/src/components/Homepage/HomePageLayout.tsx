@@ -1,12 +1,12 @@
-import '@/index.css'
-import HomePage from './HomePage';
+import '@/index.css';
+import ProfileCard from './ProfileCard';
 
-export default function HomePageLayout () {
-    return (
-        <>
-        <div className='flex flex-col justify-center content-center h-full w-full bg-background text-text'>
-            <HomePage/>
-        </div>
-        </>
-    );
-};
+export default function HomePageLayout() {
+  return (
+    <>
+      <div className="flex h-full w-full flex-col content-center justify-center bg-background text-text">
+        <ProfileCard />
+      </div>
+    </>
+  );
+}
