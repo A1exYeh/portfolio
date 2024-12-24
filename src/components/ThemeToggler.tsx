@@ -1,5 +1,6 @@
 import '@/index.css';
 import { useEffect, useState, useRef } from 'react';
+import { MutableRefObject } from 'react';
 import darkIcon from '@/assets/dark-icon.svg';
 import lightIcon from '@/assets/light-icon.svg';
 export default function ThemeToggler() {
@@ -9,7 +10,7 @@ export default function ThemeToggler() {
     img: darkIcon,
   });
   //useref serves as a reference to the button element
-  const toggleIcon = useRef(null);
+  const toggleIcon = useRef() as MutableRefObject<HTMLDivElement>;
 
   //toggle theme sets the 'theme' variable, and the icon (swapped icons due to the toggle nature)
   function toggleTheme() {

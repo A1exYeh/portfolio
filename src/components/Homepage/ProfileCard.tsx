@@ -1,5 +1,4 @@
 import '@/index.css';
-import { ReactSVG } from 'react';
 
 export default function ProfileCard() {
   return (
