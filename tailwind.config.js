@@ -17,7 +17,7 @@ export default {
       },
       fontFamily: {
         roboto: ['Roboto', 'Sans-Serif']
-      },
+      }
     },
   },
   plugins: [require('tailwindcss-animate')],
