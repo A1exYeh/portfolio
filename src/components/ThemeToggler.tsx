@@ -20,14 +20,12 @@ export default function ThemeToggler() {
         color: 'dark',
         img: lightIcon,
       });
-
     } else {
       setTheme({
         ...theme,
         color: 'light',
         img: darkIcon,
       });
-
     }
   }
 
@@ -41,7 +39,7 @@ export default function ThemeToggler() {
     <>
       <div
         ref={toggleIcon}
-        className="z-10 flex h-auto w-6 align-center justify-center"
+        className="align-center z-10 flex h-auto w-6 justify-center"
       >
         <button onClick={toggleTheme}>
           <img src={theme.img} alt="" />

@@ -1,18 +1,38 @@
-import '@/index.css'
+import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
 
-export default function NavBar () {
-    return (
-        <>
-        <nav className='flex flex-row justify-evenly text-center font-bold align-center gap-12 h-fit w-fit px-6 py-4 bg-primary z-10 mx-auto rounded-xl backdrop-blur-lg bg-opacity-55'>
-            <a href="#" className='hover:scale-105 ease-in-out transition-transform'>Home</a>
-            <a href="#" className='hover:scale-105 ease-in-out transition-transform'>About</a>
-            <a href="#" className='hover:scale-105 ease-in-out transition-transform'>Work</a>
-            <a href="#" className='hover:scale-105 ease-in-out transition-transform'>Projects</a>
-            <div className='hover:scale-10 hover:rotate-45 ease-in-out transition-transform duration-250'>
-            <ThemeToggler />
-            </div>
-        </nav>
-        </>
-    );
-};
+export default function NavBar() {
+  return (
+    <>
+      <nav className="align-center z-10 mx-auto flex h-fit w-fit max-w-full flex-row justify-evenly md:gap-12 gap-4 rounded-xl transition-transform ease-in-out bg-primaryTransparent backdrop-blur-sm px-6 py-4 text-center font-bold sticky -mb-14 top-4">
+        <a
+          href="#"
+          className="transition-transform ease-in-out hover:scale-105"
+        >
+          Home
+        </a>
+        <a
+          href="#"
+          className="transition-transform ease-in-out hover:scale-105"
+        >
+          About
+        </a>
+        <a
+          href="#"
+          className="transition-transform ease-in-out hover:scale-105"
+        >
+          Work
+        </a>
+        <a
+          href="#"
+          className="transition-transform ease-in-out hover:scale-105"
+        >
+          Projects
+        </a>
+        <div className="hover:scale-10 duration-250 transition-transform ease-in-out hover:rotate-45 active:rotate-45">
+          <ThemeToggler />
+        </div>
+      </nav>
+    </>
+  );
+}

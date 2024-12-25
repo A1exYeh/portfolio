@@ -6,18 +6,26 @@
 
 :root {
   --color-primary: #37373f;
+  --color-primary-transparent: #373739bf;
   --color-background: #ffffff;
   --color-text: #000000;
 }
 
 [data-theme='dark'] {
   --color-primary: #373739;
+  --color-primary-transparent: #373739bf;
   --color-background: #09090b;
   --color-text: #ffffff;
 }
 
 [data-theme='light'] {
   --color-primary: #d4d4d4;
-  --color-background: #e5e5e5 ;
+  --color-primary-transparent: #d4d4d4bf;
+  --color-background: #e5e5e5;
   --color-text: #000000;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto.ttf');
 }
