@@ -20,14 +20,14 @@ export default function ThemeToggler() {
         color: 'dark',
         img: lightIcon,
       });
-      toggleIcon.current.style.background = 'black';
+
     } else {
       setTheme({
         ...theme,
         color: 'light',
         img: darkIcon,
       });
-      toggleIcon.current.style.background = 'blue';
+
     }
   }
 
@@ -35,15 +35,13 @@ export default function ThemeToggler() {
   useEffect(() => {
     console.log(`Current theme: ${theme.color} .`);
     document.documentElement.setAttribute('data-theme', theme.color);
-    toggleIcon.current.style.background =
-      theme.color == 'light' ? 'black' : 'white';
   }, [theme]);
 
   return (
     <>
       <div
         ref={toggleIcon}
-        className="absolute right-4 top-4 z-10 flex h-auto w-10 content-center justify-center rounded-full p-1"
+        className="z-10 flex h-auto w-6 align-center justify-center"
       >
         <button onClick={toggleTheme}>
           <img src={theme.img} alt="" />
