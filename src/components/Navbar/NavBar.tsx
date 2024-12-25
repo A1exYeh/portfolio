@@ -4,7 +4,7 @@ import ThemeToggler from '../ThemeToggler';
 export default function NavBar() {
   return (
     <>
-      <nav className="align-center z-10 mx-auto flex h-fit w-fit max-w-full flex-row justify-evenly md:gap-12 gap-4 rounded-xl transition-transform ease-in-out bg-primaryTransparent backdrop-blur-sm px-6 py-4 text-center font-bold sticky -mb-14 top-4">
+      <nav className="align-center z-10 mx-auto flex h-fit flex-wrap w-fit max-w-full flex-row justify-evenly md:gap-12 gap-4 rounded-xl transition-transform ease-in-out bg-primaryTransparent backdrop-blur-sm px-6 py-4 text-center font-bold sticky -mb-14 top-4">
         <a
           href="#"
           className="transition-transform ease-in-out hover:scale-105"
@@ -12,13 +12,7 @@ export default function NavBar() {
           Home
         </a>
         <a
-          href="#"
-          className="transition-transform ease-in-out hover:scale-105"
-        >
-          About
-        </a>
-        <a
-          href="#"
+          href="#Work"
           className="transition-transform ease-in-out hover:scale-105"
         >
           Work

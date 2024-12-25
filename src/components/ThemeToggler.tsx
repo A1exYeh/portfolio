@@ -6,8 +6,8 @@ import lightIcon from '@/assets/light-icon.svg';
 export default function ThemeToggler() {
   //usestate sets out variable
   const [theme, setTheme] = useState({
-    color: 'light',
-    img: darkIcon,
+    color: 'dark',
+    img: lightIcon,
   });
   //useref serves as a reference to the button element
   const toggleIcon = useRef() as MutableRefObject<HTMLDivElement>;
