@@ -4,7 +4,7 @@ import ProfileContainer from './ProfileContainer';
 export default function HomePageLayout() {
   return (
     <>
-      <div className="font-roboto flex h-auto min-h-full w-full flex-col content-center justify-center bg-background text-text">
+      <div className="flex h-auto min-h-full w-full flex-col content-center justify-center bg-background font-roboto text-text">
         <ProfileContainer />
       </div>
     </>

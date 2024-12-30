@@ -13,11 +13,11 @@ export default {
         primary: 'var(--color-primary)',
         background: 'var(--color-background)',
         text: 'var(--color-text)',
-        primaryTransparent: 'var(--color-primary-transparent)'
+        primaryTransparent: 'var(--color-primary-transparent)',
       },
       fontFamily: {
-        roboto: ['Roboto', 'Sans-Serif']
-      }
+        roboto: ['Roboto', 'Sans-Serif'],
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

@@ -6,13 +6,15 @@ import Work from './WorkSection/Work';
 export default function ProfileContainer() {
   return (
     <>
-      <div className="mx-auto flex h-full w-full flex-col items-center justify-start bg-background p-4 px-8 md:border-x-2 md:border-solid md:border-primary lg:w-3/4 xl:w-[1246px]">
+      <div className="mx-auto flex h-full w-full max-w-[900px] flex-col items-center justify-start bg-background">
         <NavBar />
-        <Bio />
-        <div id="Work"></div>
-        <Work />
-        <Bio />
-        <Bio />
+        <div className="px-8">
+          <Bio />
+          <div id="Work"></div>
+          <Work />
+          <Bio />
+          <Bio />
+        </div>
       </div>
     </>
   );

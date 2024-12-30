@@ -1,10 +1,11 @@
 import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
+import NavIcon from '@/assets/nav-icon.svg';
 
 export default function NavBar() {
   return (
     <>
-      <nav className="align-center z-10 mx-auto flex h-fit flex-wrap w-fit max-w-full flex-row justify-evenly md:gap-12 gap-4 rounded-xl transition-transform ease-in-out bg-primaryTransparent backdrop-blur-sm px-6 py-4 text-center font-bold sticky -mb-14 top-4">
+      <nav className="sticky top-0 z-10 mx-auto -mb-14 flex h-fit w-full max-w-full flex-row flex-wrap items-center justify-end gap-4 rounded-xl px-6 py-4 text-center backdrop-blur-sm transition-transform ease-in-out md:gap-8">
         <a
           href="#"
           className="transition-transform ease-in-out hover:scale-105"
