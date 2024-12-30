@@ -1,6 +1,5 @@
 import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
-import NavIcon from '@/assets/nav-icon.svg';
 
 export default function NavBar() {
   return (
@@ -14,9 +13,7 @@ export default function NavBar() {
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 512.001 512.001"
-            xml:space="preserve"
             stroke="currentColor"
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0" />
