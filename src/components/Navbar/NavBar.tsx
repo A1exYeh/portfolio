@@ -84,7 +84,7 @@ export default function NavBar() {
           Work
         </a>
         <a
-          href="#"
+          href="#Projects"
           className="transition-transform ease-in-out hover:scale-105"
         >
           Projects

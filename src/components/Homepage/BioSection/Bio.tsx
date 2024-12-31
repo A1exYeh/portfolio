@@ -6,7 +6,7 @@ export default function Bio() {
     <>
       <div className="z-0 flex h-screen w-full items-center justify-center pt-4">
         <div className="">
-          <p className="mb-4 w-full text-left text-5xl font-bold md:text-8xl">
+          <p className="mb-4 w-full text-left text-5xl font-bold">
             Alex Yeh
           </p>
           <p className="w-3/4 text-md md:w-full md:text-2xl">
