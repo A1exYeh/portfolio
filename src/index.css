@@ -29,3 +29,8 @@
   font-family: 'Roboto';
   src: url('./assets/fonts/Roboto.ttf');
 }
+
+@font-face {
+  font-family: 'RobotoSerif';
+  src: url('./assets/fonts/RobotoSerif.ttf');
+}

@@ -1,6 +1,5 @@
 import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
-import TitleIcon from '@/assets/thumbnail.svg';
 
 export default function NavBar() {
   function smoothScrollToDiv(id: string) {
@@ -50,13 +49,13 @@ export default function NavBar() {
               onClick={() => smoothScrollToDiv('Work')}
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
             >
-              Work
+              work
             </p>
             <p
               onClick={() => smoothScrollToDiv('Projects')}
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
             >
-              Projects
+              projects
             </p>
             <div className="hover:scale-10 duration-250 transition-transform ease-in-out hover:rotate-45 active:rotate-45">
               <ThemeToggler />

@@ -8,12 +8,21 @@ export default function Bio() {
         id="Bio"
         className="items-left z-0 flex h-1/4 w-full flex-col justify-center pt-28"
       >
-        <p className="mb-4 text-left text-4xl font-bold">Alex Yeh</p>
-        <p className="animate text-base animate-in">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eveniet
-          deserunt cum sapiente nemo earum ipsa maiores soluta nam blanditiis
-          amet, dolorem accusamus labore rem perferendis fugiat totam veniam
-          eaque!
+        <div className="mb-4 text-left text-4xl font-bold">
+          <p>Alex Yeh</p>
+          <hr className="border-[1px] border-primary" />
+        </div>
+        <p className="animate font-robotoSerif text-base animate-in">
+          <em>
+            {' '}
+            I am a software engineer, web developer, a student, and a problem
+            solver.{' '}
+          </em>
+          <br></br>
+          <br></br>I love to build projects from the ground up, focusing on
+          scalable designs and clean code structure. I aim to deepen my
+          knowledge on current technologies and languages in order to enhance my
+          skillset.
         </p>
 
         <BioIconBar />
