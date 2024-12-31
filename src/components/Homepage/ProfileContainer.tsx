@@ -5,8 +5,6 @@ import Work from './WorkSection/Work';
 import Projects from './ProjectsSection/Projects';
 
 export default function ProfileContainer() {
-  
-
   return (
     <>
       <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start bg-background">
