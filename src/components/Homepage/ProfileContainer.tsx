@@ -3,7 +3,7 @@ import NavBar from '../Navbar/NavBar';
 import Bio from './BioSection/Bio';
 import Work from './WorkSection/Work';
 import Projects from './ProjectsSection/Projects';
-
+import Education from './WorkSection/Education';
 export default function ProfileContainer() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function ProfileContainer() {
         <div className="px-6 pb-[900px]">
           <Bio />
           <Work />
+          <Education />
           <Projects />
         </div>
       </div>

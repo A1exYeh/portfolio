@@ -15,8 +15,8 @@ export default function Bio() {
         <p className="animate font-robotoSerif text-base animate-in">
           <em>
             {' '}
-            I am a software engineer, web developer, a student, and a problem
-            solver.{' '}
+            I am a software engineer, web developer, a forever-student, and a
+            problem solver.{' '}
           </em>
           <br></br>
           <br></br>I love to build projects from the ground up, focusing on
