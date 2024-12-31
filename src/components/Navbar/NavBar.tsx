@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="sticky top-0 z-10 mx-auto -mb-14 flex h-fit w-full max-w-full flex-row flex-wrap items-center justify-end gap-4 rounded-xl px-6 py-4 text-center backdrop-blur-sm transition-transform ease-in-out md:gap-8">
-        <a href="#" className='mr-auto text-text hover:animate-spin'>
+        <a href="#" className="mr-auto text-text hover:animate-spin">
           <svg
             fill="currentColor"
             height="34"
