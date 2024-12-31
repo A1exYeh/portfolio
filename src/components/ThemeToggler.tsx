@@ -39,7 +39,7 @@ export default function ThemeToggler() {
     <>
       <div
         ref={toggleIcon}
-        className="align-center z-10 flex h-auto w-6 justify-center"
+        className="align-center z-10 flex h-auto w-[1.25rem] justify-center"
       >
         <button onClick={toggleTheme}>
           <img src={theme.img} alt="" />
