@@ -5,14 +5,15 @@ import Work from './WorkSection/Work';
 import Projects from './ProjectsSection/Projects';
 
 export default function ProfileContainer() {
+  
+
   return (
     <>
-      <div className="mx-auto flex h-full w-full max-w-[900px] flex-col items-center justify-start bg-background">
+      <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start bg-background">
         <NavBar />
-        <div className="px-8 pb-[900px]">
+        <div className="px-6 pb-[900px]">
           <Bio />
           <Work />
-          <div id="Projects"></div>
           <Projects />
         </div>
       </div>

@@ -3,7 +3,7 @@ import '@/index.css';
 export default function Projects() {
   return (
     <>
-      <div className="z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-12">
+      <div id='Projects' className="z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20">
         <p className="mb-8 w-full text-left text-5xl font-bold md:mb-20">
           Projects
         </p>

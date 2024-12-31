@@ -2,9 +2,18 @@ import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
 
 export default function NavBar() {
+  function smoothScrollToDiv (id: string) {
+    const targetDiv = document.getElementById(id);
+    if (targetDiv) {
+      targetDiv.scrollIntoView({behavior: "smooth"});
+    }
+  }
+
+
   return (
     <>
-      <nav className="sticky top-0 z-10 mx-auto -mb-14 flex h-fit w-full max-w-full flex-row flex-wrap items-center justify-end gap-4 rounded-xl px-6 py-4 text-center backdrop-blur-sm transition-transform ease-in-out md:gap-8">
+      <nav className="fixed w-full top-0 z-10 py-4 backdrop-blur-sm transition-transform ease-in-out">
+        <div className='mx-auto max-w-screen-sm flex flex-nowrap justify-between items-center gap-8 md:gap-12 px-6'>
         <a href="#" className="mr-auto text-text hover:animate-spin">
           <svg
             fill="currentColor"
@@ -71,26 +80,29 @@ export default function NavBar() {
             </g>
           </svg>
         </a>
-        <a
-          href="#"
-          className="transition-transform ease-in-out hover:scale-105"
+        <div className='flex flex-nowrap gap-8'>
+        <p
+        onClick={() => smoothScrollToDiv('Bio')}
+          className="transition-transform ease-in-out hover:scale-105 cursor-pointer"
         >
           Home
-        </a>
-        <a
-          href="#Work"
-          className="transition-transform ease-in-out hover:scale-105"
+        </p>
+        <p
+        onClick={() => smoothScrollToDiv('Work')}
+          className="transition-transform ease-in-out hover:scale-105 cursor-pointer"
         >
           Work
-        </a>
-        <a
-          href="#Projects"
-          className="transition-transform ease-in-out hover:scale-105"
+        </p>
+        <p
+        onClick={() => smoothScrollToDiv('Projects')}
+          className="transition-transform ease-in-out hover:scale-105 cursor-pointer"
         >
           Projects
-        </a>
+        </p>
         <div className="hover:scale-10 duration-250 transition-transform ease-in-out hover:rotate-45 active:rotate-45">
           <ThemeToggler />
+        </div>
+        </div>
         </div>
       </nav>
     </>
