@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="fixed w-full top-0 z-10 py-4 backdrop-blur-sm transition-transform ease-in-out">
-        <div className='mx-auto max-w-screen-sm flex flex-nowrap justify-between items-center gap-8 md:gap-12 px-6'>
+        <div className='mx-auto max-w-screen-sm flex flex-nowrap justify-between items-center px-6'>
         <a href="#" className="mr-auto text-text hover:animate-spin">
           <svg
             fill="currentColor"
@@ -80,7 +80,7 @@ export default function NavBar() {
             </g>
           </svg>
         </a>
-        <div className='flex flex-nowrap gap-8'>
+        <div className='flex flex-nowrap gap-4'>
         <p
         onClick={() => smoothScrollToDiv('Bio')}
           className="transition-transform ease-in-out hover:scale-105 cursor-pointer"

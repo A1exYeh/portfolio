@@ -5,20 +5,20 @@ export default function Work() {
     <>
       <div
         id="Work"
-        className="md:h1/2 z-0 mb-12 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
+        className="md:h1/2 z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
       >
-        <p className="mb-8 w-full text-left text-5xl font-bold md:mb-20">
+        <p className="mb-8 w-full text-left text-4xl font-bold">
           Work
         </p>
         <div
           id="WorkContainer"
           className="flex w-full flex-col items-start justify-center gap-y-12"
         >
-          <div id="WorkCard" className="text-md mx-auto w-full md:text-xl">
-            <p className="mb-4 text-lg font-bold md:text-xl">
+          <div id="WorkCard" className="text-base mx-auto w-full">
+            <p className="mb-4 font-bold">
               Legio Vox Studios
             </p>
-            <p className="font-semi mb-4 flex flex-row items-center justify-start text-lg md:text-xl">
+            <p className="font-semi mb-4 flex flex-row items-center justify-start">
               <p>Game Development Intern</p>
               <p className="ml-auto">Oct 24 - Dec 24</p>
             </p>
