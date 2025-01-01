@@ -17,7 +17,7 @@ export default function Projects() {
         >
           <div
             id="ProjectsCard"
-            className="mx-auto w-full rounded-xl border-4 border-solid border-primary bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-primaryTransparent"
+            className="mx-auto w-full rounded-xl bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-primaryTransparent"
           >
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
@@ -28,7 +28,7 @@ export default function Projects() {
           </div>
           <div
             id="ProjectsCard"
-            className="mx-auto w-full rounded-xl border-4 border-solid border-primary bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-primaryTransparent"
+            className="mx-auto w-full rounded-xl  bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-primaryTransparent"
           >
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
