@@ -7,7 +7,7 @@ export default function Education() {
         id="Education"
         className="md:h1/2 z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
       >
-        <p className="mb-4 w-full text-left text-4xl font-bold">
+        <p className="mb-4 w-full text-left text-3xl font-bold">
           Education
           <hr className="border-[1px] border-primary" />
         </p>

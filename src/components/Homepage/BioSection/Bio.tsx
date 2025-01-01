@@ -8,7 +8,7 @@ export default function Bio() {
         id="Bio"
         className="items-left z-0 flex h-1/4 w-full flex-col justify-center pt-28"
       >
-        <div className="mb-4 text-left text-4xl font-bold">
+        <div className="mb-4 text-left text-3xl font-bold">
           <p>Alex Yeh</p>
           <hr className="border-[1px] border-primary" />
         </div>

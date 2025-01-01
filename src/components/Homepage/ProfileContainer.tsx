@@ -10,7 +10,7 @@ export default function ProfileContainer() {
     <>
       <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start bg-background">
         <NavBar />
-        <div className="px-6 pb-64">
+        <div className="px-6 pb-[64rem]">
           <Bio />
           <Work />
           <Education />

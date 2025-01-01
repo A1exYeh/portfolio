@@ -3,9 +3,9 @@ import '@/index.css';
 export default function Footer() {
   return (
     <>
-     <div className='text-primary px-6 py-12 w-full flex flex-row justify-start items-center'>
-      <div>© 2025 | Alex Yeh</div>
-     </div>
+      <div className="flex w-full flex-row items-center justify-start px-6 py-12 text-primary">
+        <div>© 2025 | Alex Yeh</div>
+      </div>
     </>
   );
 }
