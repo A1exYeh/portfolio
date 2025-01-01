@@ -14,7 +14,7 @@ export default function Projects() {
         >
           <div
             id="ProjectsCard"
-            className="mx-auto w-full rounded-xl bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-backgroundLighter transition-all ease-in-out hover:scale-105 hover:shadow-black"
+            className="mx-auto w-full rounded-xl bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-transparent transition-all ease-out hover:scale-105 hover:shadow-black"
           >
             <p className="font-roboto font-semibold tracking-wide">
               Portfolio Site
@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
           <div
             id="ProjectsCard"
-            className="mx-auto w-full rounded-xl bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-backgroundLighter transition-all ease-in-out hover:scale-105 hover:shadow-black"
+            className="mx-auto w-full rounded-xl bg-gradient-to-r from-primaryTransparent to-primary p-4 shadow-2xl shadow-transparent transition-all ease-out hover:scale-105 hover:shadow-black"
           >
             <p className="font-roboto font-semibold tracking-wide">gymAPP</p>
             <p>Webapp to keep track of exercise weights.</p>

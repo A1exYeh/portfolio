@@ -36,6 +36,18 @@
   }
 }
 
+[data-theme='sunset'] {
+  --color-primary: #d4d4d4;
+  --color-primary-transparent: #d4d4d4bf;
+  --color-background: #000329;
+  --color-backgroundLighter: #ff3c3c;
+  --color-text: #db8f00;
+
+  ::selection {
+    color: #1552d6;
+  }
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url('./assets/fonts/Roboto.ttf');
