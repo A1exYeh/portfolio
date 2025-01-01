@@ -16,7 +16,7 @@
   --color-primary: #373739;
   --color-primary-transparent: #373739bf;
   --color-background: #09090b;
-  --color-backgroundLighter: #18181b;
+  --color-backgroundLighter: #0f0f18;
   --color-text: #ffffff;
 
   ::selection {
@@ -28,7 +28,7 @@
   --color-primary: #d4d4d4;
   --color-primary-transparent: #d4d4d4bf;
   --color-background: #f4f4f5;
-  --color-backgroundLighter: #fafafa;
+  --color-backgroundLighter: #ffffff;
   --color-text: #000000;
 
   ::selection {

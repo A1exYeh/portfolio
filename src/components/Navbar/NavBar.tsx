@@ -11,7 +11,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="fixed top-0 z-10 w-full py-4 backdrop-blur-sm transition-transform ease-in-out">
+      <nav className="fixed top-0 z-10 w-full bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
         <div className="mx-auto flex max-w-screen-sm flex-nowrap items-center justify-between px-6">
           <p
             className="mr-auto cursor-pointer text-text hover:animate-spin"
