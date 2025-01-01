@@ -8,9 +8,9 @@ import Footer from '../Footer';
 export default function ProfileContainer() {
   return (
     <>
-      <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start bg-background">
+      <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start">
         <NavBar />
-        <div className="px-6 pb-[64rem]">
+        <div className="px-6 pb-[24rem]">
           <Bio />
           <Work />
           <Education />

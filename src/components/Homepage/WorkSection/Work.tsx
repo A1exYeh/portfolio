@@ -7,10 +7,7 @@ export default function Work() {
         id="Work"
         className="md:h1/2 z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
       >
-        <p className="mb-4 w-full text-left text-3xl font-bold">
-          Work
-          <hr className="border-[1px] border-primary" />
-        </p>
+        <p className="mb-2 w-full text-left text-lg font-bold">Work</p>
 
         <div
           id="WorkContainer"
@@ -18,14 +15,16 @@ export default function Work() {
         >
           <div
             id="WorkCard"
-            className="mx-auto w-full cursor-default text-base"
+            className="mx-auto w-full cursor-default font-roboto text-base"
           >
-            <p className="text-[1.1rem] font-bold">Legio Vox Studios</p>
+            <p className="text-[1.05rem] font-semibold tracking-wide">
+              Legio Vox Studios
+            </p>
             <p className="font-semi mb-4 flex flex-row items-center justify-start">
               <p>Game Development Intern</p>
               <p className="ml-auto">Oct 24 - Dec 24</p>
             </p>
-            <p className="font-robotoSerif text-base italic">
+            <p className="font-serif text-base italic">
               - Led development of key game features and solutions to specific
               bugs.
               <br></br>- Worked with multiple departments in order to design and

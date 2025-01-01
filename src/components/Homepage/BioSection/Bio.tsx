@@ -8,14 +8,13 @@ export default function Bio() {
         id="Bio"
         className="items-left z-0 flex h-1/4 w-full flex-col justify-center pt-28"
       >
-        <div className="mb-4 text-left text-3xl font-bold">
+        <div className="mb-2 text-left text-lg font-bold">
           <p>Alex Yeh</p>
-          <hr className="border-[1px] border-primary" />
         </div>
-        <p className="animate font-robotoSerif text-base animate-in">
-          <em>
+        <p className="animate font-serif text-base animate-in">
+          <em className="font-robotoSerif">
             {' '}
-            I am a software engineer, web developer, a forever-student, and a
+            I am a software engineer, web developer, a student-for-life, and a
             problem solver.{' '}
           </em>
           <br></br>

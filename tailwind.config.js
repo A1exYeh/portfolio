@@ -12,6 +12,7 @@ export default {
       colors: {
         primary: 'var(--color-primary)',
         background: 'var(--color-background)',
+        backgroundLighter: 'var(--color-backgroundLighter)',
         text: 'var(--color-text)',
         primaryTransparent: 'var(--color-primary-transparent)',
       },

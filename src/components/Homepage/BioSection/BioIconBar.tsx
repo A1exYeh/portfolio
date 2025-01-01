@@ -3,7 +3,7 @@ import '@/index.css';
 export default function BioIconBar() {
   return (
     <>
-      <p className="mt-8 flex flex-wrap items-center justify-start gap-12 text-left">
+      <p className="mt-8 flex flex-wrap items-center justify-start gap-12 text-left font-serif">
         <a
           href="https://github.com/A1exYeh"
           target="_blank"
@@ -12,8 +12,8 @@ export default function BioIconBar() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
+            width="24"
+            height="24"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
@@ -28,8 +28,8 @@ export default function BioIconBar() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
+            width="24"
+            height="24"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
@@ -40,8 +40,8 @@ export default function BioIconBar() {
           <span>Resume</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
+            width="24"
+            height="24"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
