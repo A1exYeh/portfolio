@@ -6,7 +6,7 @@ export default function Bio() {
     <>
       <div
         id="Bio"
-        className="items-left z-0 flex h-1/4 w-full flex-col justify-center pt-28"
+        className="items-left z-0 flex h-1/4 w-full flex-col justify-center"
       >
         <div className="mb-2 text-left text-lg font-bold">
           <p>Alex Yeh</p>

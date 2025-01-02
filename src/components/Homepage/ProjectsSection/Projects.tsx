@@ -5,7 +5,7 @@ export default function Projects() {
     <>
       <div
         id="Projects"
-        className="z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
+        className="z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center"
       >
         <p className="mb-2 w-full text-left text-lg font-bold">Projects</p>
         <div

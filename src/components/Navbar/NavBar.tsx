@@ -1,5 +1,6 @@
 import '@/index.css';
 import ThemeToggler from '../ThemeToggler';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   function smoothScrollToDiv(id: string) {
@@ -31,9 +32,9 @@ export default function NavBar() {
     <>
       <nav className="fixed left-0 top-0 z-10 w-full overflow-hidden bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
         <div className="mx-auto flex max-w-screen-sm flex-nowrap items-center justify-between px-6">
-          <a
+          <Link
             className="mr-auto flex w-fit cursor-pointer flex-row text-text drop-shadow-glow"
-            href="/"
+            to="/"
             onMouseEnter={() => pingIcon('logoPing', true)}
             onMouseLeave={() => pingIcon('logoPing', false)}
           >
@@ -68,15 +69,15 @@ export default function NavBar() {
               id="logoPing"
               className="-ml-1 mt-1 h-1 w-1 rounded-full bg-green-500 p-[1px] opacity-0 drop-shadow-glowGreen transition-all ease-in-out"
             ></div>
-          </a>
+          </Link>
           <div className="flex flex-nowrap items-center gap-4 pl-4">
-            <a
+            <Link
               
-              href="/work"
+              to="/work"
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
             >
               work
-            </a>
+            </Link>
             <p
               onClick={() => smoothScrollToDiv('Projects')}
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"

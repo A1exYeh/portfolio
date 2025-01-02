@@ -7,12 +7,14 @@ import Footer from '../Footer';
 export default function ProfileContainer() {
   return (
     <>
-      <div className="mx-auto flex h-full max-w-screen-sm flex-col items-center justify-start">
+      <div className="mx-auto flex h-full w-full max-w-screen-sm flex-col items-center justify-start">
         <NavBar />
-        <div className="px-6 pb-[24rem]">
-          <Bio />
-          <Work />
-          <Projects />
+        <div className="w-full px-6">
+          <div className="flex flex-col gap-24 pb-56 h-full">
+            <Bio />
+            <Work />
+            <Projects />
+          </div>
         </div>
         <Footer />
       </div>
