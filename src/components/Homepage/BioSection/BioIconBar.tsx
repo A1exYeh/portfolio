@@ -1,5 +1,4 @@
 import '@/index.css';
-import { ScanQrCodeIcon } from 'lucide-react';
 
 export default function BioIconBar() {
   return (
