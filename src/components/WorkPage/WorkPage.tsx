@@ -2,7 +2,6 @@ import '@/index.css';
 import NavBar from '../Navbar/NavBar';
 import Work from '../Homepage/WorkSection/Work';
 import Education from '../Homepage/WorkSection/Education';
-import Bio from '../Homepage/BioSection/Bio';
 import Projects from '../Homepage/ProjectsSection/Projects';
 import Footer from '../Footer';
 export default function WorkPage() {
