@@ -37,7 +37,7 @@ export default function BioIconBar() {
           </svg>
         </a>
         <a
-          href={`${import.meta.env.BASE_URL}Resume.pdf`}
+          href={`${import.meta.env.BASE_URL}/Resume.pdf`}
           download="Yeh_Resume.pdf"
           className="flex flex-row items-center justify-center gap-2 rounded-xl bg-green-500 p-2 text-base transition-transform ease-in-out hover:scale-105 hover:bg-green-400"
         >
