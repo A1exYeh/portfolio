@@ -15,10 +15,21 @@ export default {
         backgroundLighter: 'var(--color-backgroundLighter)',
         text: 'var(--color-text)',
         primaryTransparent: 'var(--color-primary-transparent)',
+        shadow: 'var(--color-shadow)',
       },
       fontFamily: {
         roboto: ['Roboto', 'Sans-Serif'],
         robotoSerif: ['RobotoSerif', 'Sans-Serif'],
+      },
+      dropShadow: {
+        glow: [
+          '0 0 20px var(--color-shadow)',
+          '0 0px 65px var(--color-shadow)',
+        ],
+        glowGreen: ['0 0 10px limegreen', '0 0 2px limegreen'],
+      },
+      animation: {
+        pingOnce: 'ping 1s cubic-bezier(0, 0, 0.2, 1)',
       },
     },
   },

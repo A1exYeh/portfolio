@@ -9,13 +9,33 @@ export default function NavBar() {
     }
   }
 
+  function pingIcon(id: string, toggle: boolean) {
+    const ping = document.getElementById(id);
+    if (ping && toggle) {
+      console.log('mouseEnter');
+      ping.style.opacity = '1';
+      ping.style.transform = 'scale(2.5)';
+      //ping.classList.add('animate-pingOnce');
+      // setTimeout(() => {
+      //   ping.style.opacity = '0';
+      // }, 970);
+    } else if (ping && !toggle) {
+      console.log('mouseLeave');
+      ping.style.transform = 'scale(0)';
+      //ping.style.opacity = '0';
+      //ping.classList.remove('animate-pingOnce');
+    }
+  }
+
   return (
     <>
-      <nav className="fixed top-0 z-10 w-full bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
+      <nav className="fixed left-0 top-0 z-10 w-full overflow-hidden bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
         <div className="mx-auto flex max-w-screen-sm flex-nowrap items-center justify-between px-6">
-          <p
-            className="mr-auto cursor-pointer text-text hover:animate-spin"
+          <div
+            className="mr-auto flex w-fit cursor-pointer flex-row text-text"
             onClick={() => smoothScrollToDiv('Bio')}
+            onMouseEnter={() => pingIcon('logoPing', true)}
+            onMouseLeave={() => pingIcon('logoPing', false)}
           >
             <svg
               fill="currentColor"
@@ -26,6 +46,7 @@ export default function NavBar() {
               height="32"
               viewBox="0 0 122.3 122.3"
               stroke="currentColor"
+              className="hover:!animate-none"
             >
               <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
@@ -43,7 +64,11 @@ export default function NavBar() {
                 </g>{' '}
               </g>
             </svg>
-          </p>
+            <div
+              id="logoPing"
+              className="-ml-1 mt-1 h-1 w-1 rounded-full bg-green-500 p-[1px] opacity-0 drop-shadow-glowGreen transition-all ease-in-out"
+            ></div>
+          </div>
           <div className="flex flex-nowrap items-center gap-4">
             <p
               onClick={() => smoothScrollToDiv('Work')}
