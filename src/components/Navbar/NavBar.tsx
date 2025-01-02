@@ -14,7 +14,7 @@ export default function NavBar() {
     if (ping && toggle) {
       console.log('mouseEnter');
       ping.style.opacity = '1';
-      ping.style.transform = 'scale(2.5)';
+      ping.style.transform = 'scale(2.3)';
       //ping.classList.add('animate-pingOnce');
       // setTimeout(() => {
       //   ping.style.opacity = '0';
@@ -32,7 +32,7 @@ export default function NavBar() {
       <nav className="fixed left-0 top-0 z-10 w-full overflow-hidden bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
         <div className="mx-auto flex max-w-screen-sm flex-nowrap items-center justify-between px-6">
           <div
-            className="mr-auto flex w-fit cursor-pointer flex-row text-text"
+            className="mr-auto flex w-fit cursor-pointer flex-row text-text drop-shadow-glow"
             onClick={() => smoothScrollToDiv('Bio')}
             onMouseEnter={() => pingIcon('logoPing', true)}
             onMouseLeave={() => pingIcon('logoPing', false)}
