@@ -5,7 +5,7 @@ export default function Work() {
     <>
       <div
         id="Work"
-        className="md:h1/2 z-0 flex h-1/4 min-h-fit w-full flex-col items-start justify-center pt-20"
+        className="md:h1/2 z-0 flex h-1/4 min-h-fit min-w-screen-sm flex-col items-start justify-center pt-20"
       >
         <p className="mb-2 w-full text-left text-lg font-bold">Work</p>
 

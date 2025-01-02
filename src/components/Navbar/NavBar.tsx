@@ -31,9 +31,9 @@ export default function NavBar() {
     <>
       <nav className="fixed left-0 top-0 z-10 w-full overflow-hidden bg-gradient-to-b from-backgroundLighter to-transparent py-4 backdrop-blur-sm transition-transform ease-in-out">
         <div className="mx-auto flex max-w-screen-sm flex-nowrap items-center justify-between px-6">
-          <div
+          <a
             className="mr-auto flex w-fit cursor-pointer flex-row text-text drop-shadow-glow"
-            onClick={() => smoothScrollToDiv('Bio')}
+            href="/"
             onMouseEnter={() => pingIcon('logoPing', true)}
             onMouseLeave={() => pingIcon('logoPing', false)}
           >
@@ -68,14 +68,15 @@ export default function NavBar() {
               id="logoPing"
               className="-ml-1 mt-1 h-1 w-1 rounded-full bg-green-500 p-[1px] opacity-0 drop-shadow-glowGreen transition-all ease-in-out"
             ></div>
-          </div>
-          <div className="flex flex-nowrap items-center gap-4">
-            <p
-              onClick={() => smoothScrollToDiv('Work')}
+          </a>
+          <div className="flex flex-nowrap items-center gap-4 pl-4">
+            <a
+              
+              href="/work"
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
             >
               work
-            </p>
+            </a>
             <p
               onClick={() => smoothScrollToDiv('Projects')}
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
