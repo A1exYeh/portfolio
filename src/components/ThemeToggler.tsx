@@ -12,7 +12,7 @@ export default function ThemeToggler() {
   //usestate sets out variable
   const [theme, setTheme] = useState(() => {
     const localTheme = localStorage.getItem('theme');
-    if (localTheme === null) { 
+    if (localTheme === null) {
       return {
         color: getSystemTheme(),
         img: getSystemTheme() ? lightIcon : darkIcon,
@@ -35,14 +35,12 @@ export default function ThemeToggler() {
         color: 'dark',
         img: lightIcon,
       });
-    
     } else {
       setTheme({
         ...theme,
         color: 'light',
         img: darkIcon,
       });
-      
     }
   }
 

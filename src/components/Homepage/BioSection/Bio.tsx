@@ -19,9 +19,9 @@ export default function Bio() {
           </em>
           <br></br>
           <br></br>I love to build projects from the ground up, focusing on
-          scalable designs and clean code structure. As a student, I aim to deepen my
-          knowledge on current technologies and languages in order to enhance my
-          skillset.
+          scalable designs and clean code structure. As a student, I aim to
+          deepen my knowledge on current technologies and languages in order to
+          enhance my skillset.
         </p>
 
         <BioIconBar />

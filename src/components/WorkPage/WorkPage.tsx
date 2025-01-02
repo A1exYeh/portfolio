@@ -11,7 +11,7 @@ export default function WorkPage() {
       <div className="mx-auto flex h-full w-full max-w-screen-sm flex-col items-center justify-start">
         <NavBar />
         <div className="w-full px-6">
-          <div className="flex flex-col gap-32 pb-72 h-full">
+          <div className="flex h-full flex-col gap-32 pb-72">
             <Work />
             <Education />
             <Projects />

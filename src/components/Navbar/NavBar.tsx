@@ -72,7 +72,6 @@ export default function NavBar() {
           </Link>
           <div className="flex flex-nowrap items-center gap-4 pl-4">
             <Link
-              
               to="/work"
               className="cursor-pointer transition-transform ease-in-out hover:scale-105"
             >
